@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Tails Pet Adoption</title>
+
+    <!-- Google Fonts: Fredoka (round, friendly headings) + Nunito (body text) -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Happy Tails</a>
+      <nav class="nav">
+        <a href="#pets">Adopt</a>
+        <a href="#steps">How it Works</a>
+        <a href="#care">Pet Care</a>
+      </nav>
+
+      <a href="#visit" class="btn btn-small">Visit us</a>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <h1>Your new best friend is waiting.</h1>
+          <p>
+            Every pet here is vaccinated, checked by a vet, and ready to love a
+            family. Meet them, then take one home.
+          </p>
+          <a href="#pets" class="btn">Meet our pets</a>
+          <a href="#steps" class="btn btn-outline">How adoption works</a>
+        </div>
+
+        <!-- Paw print -->
+        <div class="paw">
+          <span class="toe t1"></span>
+          <span class="toe t2"></span>
+          <span class="toe t3"></span>
+          <span class="toe t4"></span>
+          <span class="pad"></span>
+        </div>
+      </section>
+
+      <!-- Pets to adopt -->
+      <section class="section" id="pets">
+        <h2>Pets looking for a home</h2>
+        <p class="section-intro">Tap "Meet" to ask about any of them.</p>
+        <div class="grid-4">
+          <article class="pet">
+            <div class="pet-photo sky">🐶</div>
+            <h3>Biscuit</h3>
+            <p class="meta">Beagle, 2 years</p>
+            <p>Loves walks, belly rubs, and chasing tennis balls.</p>
+            <a href="#visit" class="btn btn-small">Meet Biscuit</a>
+          </article>
+
+          <article class="pet">
+            <div class="pet-photo blush">🐱</div>
+            <h3>Mochi</h3>
+            <p class="meta">Tabby cat, 1 years</p>
+            <p>Calm lap cat who purrs the moment you sit down.</p>
+            <a href="#visit" class="btn btn-small">Meet Mochi</a>
+          </article>
+
+          <article class="pet">
+            <div class="pet-photo butter">🐰</div>
+            <h3>Clover</h3>
+            <p class="meta">Rabbit, 8 months</p>
+            <p>Gentle and curious. Does happy jumps when she sees carrots.</p>
+            <a href="#visit" class="btn btn-small">Meet Clover</a>
+          </article>
+
+          <article class="pet">
+            <div class="pet-photo sky">🐕</div>
+            <h3>Rocky</h3>
+            <p class="meta">Mixed Breed, 5 years</p>
+            <p>A calm senior who is great with kids and other dogs.</p>
+            <a href="#visit" class="btn btn-small">Meet Rocky</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- How Adoption works -->
+      <section class="section section-dark" id="steps">
+        <h2>Adopting takes four steps</h2>
+        <ol class="steps">
+          <li>
+            <h3>Pick a pet</h3>
+            <p>Browse online or come say hello in person.</p>
+          </li>
+          <li>
+            <h3>Meet them</h3>
+            <p>Spend time together in our play room.</p>
+          </li>
+          <li>
+            <h3>Fill in a form</h3>
+            <p>A short form helps us match you with the right pet.</p>
+          </li>
+          <li>
+            <h3>Take them home</h3>
+            <p>We send you off with food, a toy and a care guide.</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Pet care services -->
+      <section class="section" id="care">
+        <h2>Care for the pet you already have</h2>
+        <div class="grid-3">
+          <article class="service">
+            <h3>Grooming</h3>
+            <p>Baths, trims, and nail care from gentle, trained groomers.</p>
+          </article>
+          <article class="service">
+            <h3>Boarding</h3>
+            <p>A cozy place for your pet to stay while you are away.</p>
+          </article>
+          <article class="service">
+            <h3>Vet Check-ups</h3>
+            <p>Vaccines and health checks with a friendly vet on site.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Testimonial -->
+      <section class="section section-tint">
+        <blockquote>
+          We went in for a quick look and came out with Biscuit. Best decision
+          our family ever made.
+          <cite>The Rahman family</cite>
+        </blockquote>
+      </section>
+
+      <!-- Visit form -->
+      <section class="section section-dark" id="visit">
+        <h2>Come and meet them</h2>
+        <p class="section-intro">
+          Leave your email and we will book a visit time for you.
+        </p>
+        <form class="form">
+          <label for="email">Your email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="you@example.com"
+            required
+          />
+          <button type="submit" class="btn">Book a visit</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Happy Tails Pet Adoption | 45 Maple Street</p>
+      <p>hello@happytails.example | Open Tuesday to Sunday, 10 AM to 6 PM</p>
+    </footer>
+  </body>
+</html>
